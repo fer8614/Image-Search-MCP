@@ -1,5 +1,7 @@
 # Image Search MCP
 
+This MCP (Model Context Protocol) allows you to integrate an image search directly into your code editor's chat. By configuring this MCP, you can use natural language prompts within your editor's chat interface to search for images and receive results directly, streamlining your development workflow.
+
 This project is an implementation of a Model Context Protocol (MCP) server that allows users to search for images based on text prompts using the Unsplash API. It enables AI models to find and retrieve relevant images for any given search query.
 
 ## Features
@@ -14,9 +16,6 @@ The MCP server exposes a tool called `search_image`. When you provide a text pro
 1. Sends the search query to the Unsplash API
 2. Retrieves up to 5 relevant images
 3. Returns the image URLs in a structured response
-
-## English Explanation
-This MCP (Model Context Protocol) allows you to integrate an image search directly into your code editor's chat. By configuring this MCP, you can use natural language prompts within your editor's chat interface to search for images and receive results directly, streamlining your development workflow.
 
 ## Image API Used
 This project uses the [Unsplash API](https://unsplash.com/developers) to fetch high-quality, freely-usable images. The API provides access to a vast collection of professional photographs that can be used for various purposes.
